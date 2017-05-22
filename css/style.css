@@ -1,4 +1,6 @@
 /* Shasha Stylesheet */
+
+
 /**
  * www.shashanetwork.com
  * Version 1.00
@@ -12,64 +14,69 @@
    ========================================================================== */
 
 p {
-  line-height: 2rem;
+    line-height: 2rem;
 }
 
 .button-collapse {
-  color: #26a69a;
+    color: #26a69a;
 }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
+
+.parallax-container .section {
     width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
 }
 
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
 }
 
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
 }
 
-@media only screen and (max-width : 300px) {
-  #index-banner {
-    height: 300px;
-  }
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    #index-banner {
+        height: 300px;
+    }
 }
 
 .icon-block {
-  padding: 0 15px;
+    padding: 0 15px;
 }
+
 .icon-block .material-icons {
-  font-size: inherit;
+    font-size: inherit;
 }
 
 footer.page-footer {
-  margin: 0;
-  padding:30px 30px;
-  background-color: #4a4a4a;
-  color: #ffffff;
+    margin: 0;
+    padding: 30px 30px;
+    background-color: #4a4a4a;
+    color: #ffffff;
+    bottom: 0;
+    width: 100%;
 }
+
 
 /* ==========================================================================
    Start of custom css for navigation menu:Homepage
@@ -77,53 +84,54 @@ footer.page-footer {
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+    color: #444;
 }
 
 .menu {
-  height: 100px;
-  object-fit: contain;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.29);
-  padding-top: 10px;
+    height: 100px;
+    object-fit: contain;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.29);
+    padding-top: 10px;
 }
 
 .pad {
-  padding-top: 12px;
+    padding-top: 12px;
 }
 
 .btn {
-  border-radius: 2px;
-  background-color: #9f3040;
+    border-radius: 2px;
+    background-color: #9f3040;
 }
 
 .btn:hover {
-  background-color: #ee733f
+    background-color: #ee733f
 }
 
-.nav-li-a{
-  height: 78px;
-  padding-bottom: 30px;
+.nav-li-a {
+    height: 78px;
+    padding-bottom: 30px;
 }
 
 .nav-li-a:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-bottom: 5px solid #9f3040;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom: 5px solid #9f3040;
 }
 
 a {
-   outline: 0;
+    outline: 0;
 }
+
 
 /* ==========================================================================
    Start of custom css for home banner:Homepage
    ========================================================================== */
 
-.home-banner{
-  margin-top:100px;
+.home-banner {
+    margin-top: 100px;
 }
 
 @media screen and (max-width: 480px) {
-    .home-banner-container{
+    .home-banner-container {
         height: 500px;
     }
 }
@@ -133,93 +141,99 @@ a {
    Start of custom css for pricing container:Homepage
    ========================================================================== */
 
-.pricing-container{
-  margin-top:40px;
-  margin-bottom: 40px;
+.pricing-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-.pricing-title-hd{
-  border-bottom: 5px solid #ee733f;
-  padding-bottom: 30px;
+.pricing-title-hd {
+    border-bottom: 5px solid #ee733f;
+    padding-bottom: 30px;
 }
 
 .pricing-card {
-  padding-top: 70px;
+    padding-top: 70px;
 }
 
-.card-header{
-  text-align: center;
-  height: 60px;
-  padding-top: 15px;
-  background-color: #ee733f;
-  color:#ffffff;
-  font-size: 12px;
+.card-header {
+    text-align: center;
+    height: 60px;
+    padding-top: 15px;
+    background-color: #ee733f;
+    color: #ffffff;
+    font-size: 12px;
 }
 
 .card-title-hd {
-  font-size:18px;
+    font-size: 18px;
 }
 
-.card-info{
-  text-align: center;
-  height: 100px;
-  padding-top: 25px;
-  background-color: #ff8048;
-  color:#ffffff;
+.card-info {
+    text-align: center;
+    height: 100px;
+    padding-top: 25px;
+    background-color: #ff8048;
+    color: #ffffff;
 }
 
 .card-title-info {
-  font-size:38px;
+    font-size: 38px;
 }
 
 .card-title-info sup {
-  font-size: 18px;
-  top: -25px;
+    font-size: 18px;
+    top: -25px;
 }
 
 .card-title-info sub {
-  font-size: 15px;
+    font-size: 15px;
 }
 
 .card-content {
-  height: 200px;
+    height: 200px;
 }
 
 @media screen and (max-width: 480px) {
-  .pricing-card2 {
-    margin-top: 45px;
-  }
+    .pricing-card2 {
+        margin-top: 45px;
+    }
 }
+
+@media screen and (max-width: 480px) {
+    .pricing-card2 {
+        margin-top: 45px;
+    }
+}
+
 
 /* ==========================================================================
    Start of custom css for details banners section:Homepage
    ========================================================================== */
 
-.details-banner{
-  background-color: #e2e2e2; 
-  width: 100%; 
-  height: 360px;
-  padding:0;
+.details-banner {
+    background-color: #e2e2e2;
+    width: 100%;
+    height: 360px;
 }
 
-.details-banner-pd{
-  padding-top: 60px;
+.details-banner-pd {
+    padding-top: 60px;
 }
 
 .details-banner-cirlce {
-  background-color: white; 
-  padding: 30px; 
-  border-radius: 60px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 60px;
 }
 
 @media screen and (max-width: 480px) {
-    .details-banner{
+    .details-banner {
         height: 800px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .details-banner{
+    .details-banner {
         height: 800px;
     }
 }
@@ -228,19 +242,20 @@ a {
 /* ==========================================================================
    Start of custom css for who we are section:Homepage
    ========================================================================== */
-.who-we-are-section{
-  margin-top: 40px;
+
+.who-we-are-section {
+    margin-top: 40px;
 }
 
-.who-we-are-content{
-  margin-top:80px;
-  margin-bottom: 60px;
-  font-size: 16px;
+.who-we-are-content {
+    margin-top: 80px;
+    margin-bottom: 60px;
+    font-size: 16px;
 }
 
-.fa-quote-left{
-  opacity: 0.07;
-  font-size: 150px;
+.fa-quote-left {
+    opacity: 0.07;
+    font-size: 150px;
 }
 
 /* ==========================================================================
@@ -325,3 +340,311 @@ padding-bottom:20px;
      font-weight:bold;
 }
 
+
+/* ==========================================================================
+   Start of custom css for Library:Library
+   ========================================================================== */
+
+.top-banner-container {
+    margin-top: 5px;
+    height: 70px;
+    background-color: #f1f1f1;
+}
+
+.library-courses-title {
+    color: #a31623;
+}
+
+.library-courses-container {
+    border-top: 2px solid #dadada;
+}
+
+.library-course {
+    margin: 10%;
+    width: 90%;
+    height: 90%;
+    padding-top: 20%;
+    border-top: 0px;
+    color: #9b9b9b;
+}
+
+.library-active {
+    color: #a31623;
+}
+
+.library-list {
+    text-decoration: none;
+    color: inherit;
+}
+
+.library-list:hover {
+    color: #ee733f
+}
+
+.library-li {
+    height: 52px;
+}
+
+.library-li-container {
+    margin-top: 60px;
+}
+
+.library-li-active {
+    background-color: #f1f1f1;
+}
+
+.library-list-title {
+    width: 80%;
+    height: 90%;
+    float: center;
+    margin: 0 auto;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #000000;
+}
+
+.library-li-icon {
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.library-title-content {
+    min-width: 300px;
+    max-height: 20px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.library-button {
+    background-color: inherit;
+    float: right;
+    color: #585858;
+    border-radius: 10px;
+    border: 2px solid #9b9b9b;
+    padding: 2px 45px 2px 45px;
+    margin-top: 10px;
+}
+
+.library-button:hover {
+    background-color: #fafafa
+}
+
+.library-current-course {
+    text-align: center;
+    background-color: #9b9b9b;
+    color: #ffffff;
+    float: right;
+    padding: 3px 15px 3px 15px;
+}
+
+
+/* ==========================================================================
+   Start of custom css for courses:Courses
+   ========================================================================== */
+
+.course-tab {
+    height: 50px;
+    margin-top: 5px;
+    color: #6b6b6b;
+    margin-right: 15px;
+}
+
+.course-tab:hover {
+    height: 50px;
+    margin-top: 5px;
+    color: #6b6b6b;
+    border-bottom: 5px solid #9f3040;
+}
+
+.course-tab-width {
+    width: 50px;
+}
+
+.a course-tab {
+    color: inherit;
+}
+
+.courses-title-icon {
+    color: #a31623;
+}
+
+.courses-title {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #a31623;
+}
+
+
+/* ==========================================================================
+   Start of custom css for courses vertial navigation:Course
+   ========================================================================== */
+
+#vertical-fixed-menu {
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 245px;
+    overflow: auto;
+}
+
+.vertical-menu,
+.vertical-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.vertical-menu li {
+    position: relative;
+    z-index: 1;
+    padding-top: 8px;
+}
+
+.vertical-menu a {
+    display: block;
+    border-bottom: 1px solid #fff;
+    padding: 5px 10px;
+    color: #000;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.vertical-menu a:hover {
+    color: #6399b7;
+}
+
+.vertical-menu ul {
+    position: relative;
+    left: 0;
+    top: -100%;
+    z-index: -1;
+    max-height: 0;
+    width: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.vertical-menu li.active > ul {
+    top: 0;
+    z-index: 2;
+    opacity: 1;
+    width: 100%;
+    max-height: 50em;
+    width: 100%;
+    overflow: visible;
+}
+
+.v-menu-1 {
+    width: 200px;
+}
+
+li.active > a {
+    border-left: 2px solid #6399b7;
+    color: #6399b7;
+}
+
+
+/* ==========================================================================
+   Start of custom css for course content section:Course
+   ========================================================================== */
+
+.current-course-title {
+    height: 40px;
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.78;
+    text-align: left;
+    color: #000000;
+    color: var(--black);
+}
+
+.current-course-content {
+    padding-top: 5px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 2.07;
+    text-align: left;
+    color: #000000;
+    color: var(--black);
+}
+
+.nav-li-account:hover {
+    border-color: #ffffff;
+    color:#b4282e;
+}
+
+.dropdown-content {
+    margin-top: 80px;
+    width: 100px;
+}
+
+.dropdown-content li a {
+    color: #000000;
+}
+
+
+/* ==========================================================================
+   Start of custom css for course content section:Course
+   ========================================================================== */
+
+.comments {
+    border-bottom: 3px solid #b4282e;
+    height: 40px;
+    font-size: 14px;
+}
+
+.comments-user {
+    color: #d8d8d8;
+    padding: 20px;
+    border-radius: 200px;
+}
+
+.comments-sort {
+    background color: yellow;
+    border-bottom: 3px solid #d8d8d8;
+    height: 40px;
+    font-size: 14px;
+}
+
+.comments-form {
+    margin-top: 20px;
+}
+
+/* ==========================================================================
+   Start of custom css for course references section:Course
+   ========================================================================== */
+
+.references-about{
+    font-size: 14px;
+    line-height: 2.86;
+    text-align: left;
+    color: #898989;
+    padding-bottom: 20px;
+}
+
+.references-title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+    color: var(--black);
+}
+
+.references-li{
+    font-size: 18px;
+    text-align: left;
+}
+
+.references-li a{
+    color: #b4282e;
+}
+
+.references-li a:hover{
+    color: #f87d4e;
+}
+
+.padding-bottom {
+    padding-bottom: 100px;
+}
