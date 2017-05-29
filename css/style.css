@@ -21,6 +21,7 @@ p {
     color: #26a69a;
 }
 
+
 .parallax-container {
     min-height: 380px;
     line-height: 0;
@@ -77,6 +78,26 @@ footer.page-footer {
     width: 100%;
 }
 
+
+/* Input Fields */
+
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid #9f3040;
+    box-shadow: 0 1px 0 0 #9f3040;
+}
+
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field input[type=password]:focus + label {
+    color: #9f3040;
+}
+
+.btn-social {
+    margin: 0px 12px 0px 12px;
+    border-radius: 25px;
+}
 
 /* ==========================================================================
    Start of custom css for navigation menu:Homepage
@@ -258,88 +279,110 @@ a {
     font-size: 150px;
 }
 
+
 /* ==========================================================================
    Start of custom css for about us page
    ========================================================================== */
 
-#title-banner{
-  background-color: #ff8048; 
-  width: 100%; 
-  height: 300px;
-  color:#fff;
-  margin-top:0px;
+#title-banner {
+    background-color: #ff8048;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    margin-top: 0px;
 }
 
-.section-title{
-  border-bottom: 5px solid #ee733f;
-  padding-bottom: 30px;
+.section-title {
+    border-bottom: 5px solid #ee733f;
+    padding-bottom: 30px;
 }
 
-.darkorange-text{
-  color: #ff8048;
+.darkorange-text {
+    color: #ff8048;
 }
 
-.mission{ 
-padding-left: 15px;
+.mission {
+    padding-left: 15px;
 }
 
-.list{
-margin-top:40px;
+.list {
+    margin-top: 40px;
 }
 
-.list li{
-padding-bottom:20px;
+.list li {
+    padding-bottom: 20px;
 }
 
-.about-us-section{
-  padding-top: 40px;
+.about-us-section {
+    padding-top: 40px;
 }
 
-.about-us-content{
-  margin-top:80px;
-  margin-bottom: 60px;
-  font-size: 14px;
+.about-us-content {
+    margin-top: 80px;
+    margin-bottom: 60px;
+    font-size: 14px;
 }
 
-.grey-banner{
-  background-color: #e2e2e2;
-  width:100%;
+.grey-banner {
+    background-color: #e2e2e2;
+    width: 100%;
 }
+
 
 /* ==========================================================================
    Start of custom css for Registration pages
    ========================================================================== */
 
-.register-title{
-  border-bottom: 2px solid #e2e2e2;
-  /*margin-top: 160px;*/
-  color: #9f3040;
-  padding: 30px;
+.register-title {
+    border-bottom: 2px solid #e2e2e2;
+    /*margin-top: 160px;*/
+    color: #9f3040;
+    padding: 30px;
 }
 
-.register-card{
-  border-top: 10px solid #9f3040;
-  color:grey;
+.register-card {
+    border-top: 10px solid #9f3040;
+    color: grey;
 }
 
-.register-card p{
-  color:grey;
+.register-card p {
+    color: grey;
 }
 
-.register-card .card-info{
-  background-color: #fff;
-  color:#000;
-  height:160px;
+.register-card .card-info {
+    background-color: #fff;
+    color: #000;
+    height: 160px;
 }
 
-.register-card .card-title{
-  color: #4a4a4a;
+.register-card .card-title {
+    color: #4a4a4a;
 }
 
-.register-card .card-action a{
-     font-weight:bold;
+.register-card .card-action a {
+    font-weight: bold;
 }
 
+.register-card .card-content{
+    height: 350px; 
+    margin-top: 20px;
+}
+
+
+.register-card .sign{
+    height: 280px; 
+    margin-top: 20px;
+}
+
+
+.forgot-password {
+    height: 50px; 
+     margin-top: 0px;
+}
+
+.reset-password{
+    height: 180px; 
+}
 
 /* ==========================================================================
    Start of custom css for Library:Library
@@ -572,7 +615,7 @@ li.active > a {
 
 .nav-li-account:hover {
     border-color: #ffffff;
-    color:#b4282e;
+    color: #b4282e;
 }
 
 .dropdown-content {
@@ -612,11 +655,12 @@ li.active > a {
     margin-top: 20px;
 }
 
+
 /* ==========================================================================
    Start of custom css for course references section:Course
    ========================================================================== */
 
-.references-about{
+.references-about {
     font-size: 14px;
     line-height: 2.86;
     text-align: left;
@@ -624,7 +668,7 @@ li.active > a {
     padding-bottom: 20px;
 }
 
-.references-title{
+.references-title {
     font-size: 20px;
     font-weight: bold;
     text-align: left;
@@ -632,19 +676,20 @@ li.active > a {
     color: var(--black);
 }
 
-.references-li{
+.references-li {
     font-size: 18px;
     text-align: left;
 }
 
-.references-li a{
+.references-li a {
     color: #b4282e;
 }
 
-.references-li a:hover{
+.references-li a:hover {
     color: #f87d4e;
 }
 
 .padding-bottom {
     padding-bottom: 100px;
 }
+
