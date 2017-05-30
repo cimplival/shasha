@@ -21,7 +21,6 @@ p {
     color: #26a69a;
 }
 
-
 .parallax-container {
     min-height: 380px;
     line-height: 0;
@@ -98,6 +97,7 @@ footer.page-footer {
     margin: 0px 12px 0px 12px;
     border-radius: 25px;
 }
+
 
 /* ==========================================================================
    Start of custom css for navigation menu:Homepage
@@ -363,25 +363,86 @@ a {
     font-weight: bold;
 }
 
-.register-card .card-content{
-    height: 350px; 
+.register-card .card-content {
+    height: 350px;
     margin-top: 20px;
 }
 
-
-.register-card .sign{
-    height: 280px; 
+.register-card .sign {
+    height: 280px;
     margin-top: 20px;
 }
-
 
 .forgot-password {
-    height: 50px; 
-     margin-top: 0px;
+    height: 50px;
+    margin-top: 0px;
 }
 
-.reset-password{
-    height: 180px; 
+.reset-password {
+    height: 180px;
+}
+
+.register-card .register2 {
+    height: 300px;
+}
+
+.register2 button {
+    margin-top: 20px;
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"].with-gap:checked + label:before,
+[type="radio"].with-gap:checked + label:after {
+    border: 2px solid #a31623;
+    background-color: #a31623;
+}
+
+.dropdown-content li > span {
+    color: #a31623;
+}
+
+.btn:focus,
+.btn-large:focus,
+.btn-floating:focus {
+    background-color: #a31623;
+}
+
+.register-card .register4 {
+    height: 400px;
+}
+
+.card .course {
+    height: 250px;
+    padding-bottom: 0px;
+}
+
+.course .card .card-content {
+    margin-top: 30px;
+    height: 180px;
+    padding-bottom: 0px;
+    border: solid 6px #4a4a4a;
+}
+
+.course .card .card-title {
+    padding-top: 25px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.course .card p {
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+#register-inactive {
+    border: solid 6px #d8d8d8;
+    color: #cfcfcf;
+}
+
+.card-content {
+    color:#393939;
+    text-decoration: none; 
+    background-color: none;
 }
 
 /* ==========================================================================
@@ -692,4 +753,3 @@ li.active > a {
 .padding-bottom {
     padding-bottom: 100px;
 }
-

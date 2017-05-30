@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Join Our Network - Shasha</title>
+    <!-- Import CSS/JS -->
+    <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!--<script src="https://use.fontawesome.com/b47f3b2af9.js"></script>-->
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="white menu" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" class="brand-logo" href="index.html">
+                <img src="img/logos/shashalogo.png" srcset="img/shashalogo@2x.png 2x, img/shashalogo@3x.png 3x" class="shashalogo" alt="Image of logo" />
+            </a>
+            <ul class="right hide-on-med-and-down pad">
+                <li><a class="nav-li-a" href="library.html">LIBRARY</a></li>
+                <li><a class="nav-li-a" href="aboutus.html">ABOUT US</a></li>
+                <li><a class="nav-li-a" href="getinvolved.html">GET INVOLVED</a></li>
+                <a class="waves-effect waves-light btn" href="register.html">SIGN IN</a>
+            </ul>
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="library.html">LIBRARY</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="getinvolved.html">GET INVOLVED</a></li>
+                <li><a href="register.html">SIGN IN</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    <!-- End Navigation -->
+    <!--Registration Form Begin-->
+    <div class="container">
+        <div class="section">
+            <div class="row center">
+                <div class="col s12 m12">
+                    <h5 class="center register-title">Welcome Faith, lets get started!</h5>
+                </div>
+            </div>
+            <!--Registration Card 3-->
+            <div class="row">
+                <div class="col s12 m2"></div>
+                <div class="col s12 m12">
+                    <div class="card register-card">
+                        <div class="card-content register2">
+                            <p class="center">
+                                <input name="register" type="radio" id="register1" disabled="disabled"/>
+                                <label for="register1"></label>
+                                <input name="register" type="radio" id="register2" checked/>
+                                <label for="register2"></label>
+                                <input name="register" type="radio" id="register3" disabled="disabled"/>
+                                <label for="register3"></label>
+                            </p>
+                            <h4 class="card-title center">Which secondary school do you currently attend?</h4>
+                            <div class="input-field col s12">
+                              <input type="text" id="autocomplete-input" class="autocomplete">
+                              <label for="autocomplete-input">E.G. CHISPITLE JUNIOR SCHOOL</label>
+                            </div>
+                            <a href="register-2.html" class="waves-effect waves-light btn col m2 left" type="submit">BACK</a>
+                            <a href="register-4.html" class="waves-effect waves-light btn col m2 right" type="submit">NEXT</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m2"></div>
+            </div>
+            <!--End Registration Card 3-->
+        </div>
+    </div>
+    </div>
+    <!--End Registration Form-->
+    <footer class="page-footer">
+        <div class="container center">
+            Copyright © 2017 Shasha Network. All Rights Reserved.
+        </div>
+    </footer>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <!--  Select Script-->
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('select').material_select();
+    });
+    </script>
+</body>
+
+</html>
