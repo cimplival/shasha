@@ -94,7 +94,8 @@ footer.page-footer {
 }
 
 .btn-social {
-    margin: 0px 12px 0px 12px;
+    margin: 0px 6px 0px 35px;
+    left:-32px;
     border-radius: 25px;
 }
 
@@ -117,6 +118,7 @@ nav .brand-logo {
 
 .pad {
     padding-top: 12px;
+    width: 500px;
 }
 
 .btn {
@@ -233,7 +235,7 @@ a {
 
 .details-banner {
     background-color: #e2e2e2;
-    width: 100%;
+    min-width: 100%;
     height: 360px;
 }
 
@@ -364,7 +366,7 @@ a {
 }
 
 .register-card .card-content {
-    height: 350px;
+    height: 420px;
     margin-top: 20px;
 }
 
