@@ -804,3 +804,31 @@ li.active > a {
 .padding-bottom {
     padding-bottom: 100px;
 }
+
+/* ==========================================================================
+   Start of custom css for Get Involved page
+   ========================================================================== */
+
+.tabs a{
+    font-size:16px !important;
+    color:black!important;
+}
+.tabs a.active{
+    color:black!important;
+    font-weight: bold;
+}
+.tabs a.hover{
+}
+.tab-content{
+    padding-top:20px !important;
+    font-size:16px !important;
+    height:80% !important;
+}
+
+.tab-content h5{
+    font-size:18px;
+    font-weight: bold;
+}
+.bullets{
+    list-style-type: circle !important;
+}

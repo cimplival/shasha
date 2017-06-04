@@ -4,11 +4,13 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
-    <title>Get Involved- Shasha</title>
+    <title>Get Involved - Shasha</title>
     <!-- Import CSS/JS -->
-    <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
     <!--<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
 </head>
 
@@ -43,13 +45,34 @@
     </div>
     <!-- End Top Banner -->
     <!--Get Involved-->
-    <div class="container about-us-section">
+    <div class="container">
         <div class="section about-us-section">
             <div class="row">
                 <div class="col s12 m12">
-                    <p>
-                        DIV HERE
-                    </p>
+                      <ul id="tabs-swipe-demo" class="tabs">
+                        <li class="tab col s2"><a class="active" href="#students">Students</a></li>
+                        <li class="tab col s2"><a href="#schools">Schools</a></li>
+                        <li class="tab col s2"><a href="#tutors">Tutors</a></li>
+                        <li class="tab col s2"><a href="#parents">Parents</a></li>
+                        <li class="tab col s2"><a href="#companies">Companies</a></li>
+                      </ul>
+                      <div id="students" class="col s12 tab-content">
+
+                          <h5>Become an ambassador</h5>
+                          <p>Succeed in your academic endeavours by getting access to great academic mentors and leaders.</p>
+
+                          <h5>Benefits:</h5>
+                          <ul>
+                            <li>Interact and engage with various educators and thought leaders.</li>
+                            <li>Further develop your talents and improve your skillset.</li>
+                            <li>Achieve personal development goals and career objectives.</li>
+                          </ul>
+
+                      </div>
+                      <div id="schools" class="col s12 tab-content">As you a School..</div>
+                      <div id="tutors" class="col s12 tab-content">As a Tutor...</div>
+                      <div id="parents" class="col s12 tab-content">As a Parent..</div>
+                      <div id="companies" class="col s12 tab-content">As a Company..</div>
                 </div>
             </div>
         </div>
@@ -72,7 +95,37 @@
             </div>
             <div class="col s12 m8">
                 <div class="about-us-content center">
-                    <p>CONTACT FORM HERE</p>
+                    <!--contact form-->
+                    <div class="row">
+                        <form class="col s12">
+                          <div class="row">
+                            <div class="input-field col s6">
+                              <input id="full_name" type="text" class="validate" required>
+                              <label for="full_name">Name/Organization</label>
+                            </div>
+                            <div class="input-field col s6">
+                              <input id="email" type="email" class="validate" required>
+                              <label for="email">Email Address</label>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <input id="phone" type="tel" class="validate">
+                              <label for="phone">Phone Number</label>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea" required></textarea>
+                            <label for="textarea1">Your Message</label>
+                            </div>
+                          </div>
+                        <button class="right btn waves-effect waves-light" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                          </button>
+                        </form>
+                      </div>
+                    <!--end contact form-->
                 </div>
             </div>
             <div class="col s12 m2">
