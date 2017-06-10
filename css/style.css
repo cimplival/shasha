@@ -224,6 +224,10 @@ a {
     height: 200px;
 }
 
+#learn {
+    display: none;
+}
+
 @media screen and (max-width: 480px) {
     .pricing-card2 {
         margin-top: 45px;
