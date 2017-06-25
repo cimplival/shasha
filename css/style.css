@@ -101,6 +101,25 @@ footer.page-footer {
     color: #9f3040;
 }
 
+textarea.materialize-textarea {
+  border-bottom: 1px solid #9f3040;
+}
+
+textarea.materialize-textarea.valid,
+textarea.materialize-textarea:focus.valid {
+  border-bottom: 1px solid #9f3040;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #9f3040;
+  box-shadow: 0 1px 0 0 #9f3040;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #9f3040;
+}
+
+
 .btn-social {
     margin: 0px 6px 0px 35px;
     left:-32px;
@@ -596,6 +615,17 @@ a {
     padding: 3px 15px 3px 15px;
 }
 
+.new-course {
+    padding-top: 60px;
+}
+
+.btn-floating{
+    background-color: #9b9b9b;
+}
+
+.btn-floating:hover {
+    background-color: #ee733f;
+}
 
 /* ==========================================================================
    Start of custom css for courses:Courses
@@ -836,3 +866,4 @@ li.active > a {
 .bullets{
     list-style-type: circle !important;
 }
+ 
