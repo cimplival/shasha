@@ -725,7 +725,7 @@ a {
 .library2-header3{
     margin-top: 0px;
     padding-top: 8px;
-    font-weight: bold;
+    font-weight:light;
 }
 
 .library2-header3 select{
@@ -766,7 +766,7 @@ a {
 
 
 .library2-header2 input[type=text]{
-    border: 1px solid #6b6b6b;
+    border: 0px solid #d1d1d1;
     padding-left: 15px;
     padding-right: 10px;
     padding-top: 5px;
@@ -776,14 +776,14 @@ a {
 }
 
 .library2-header2 input[type=text]:focus{
-   border: 1px solid #6b6b6b;
-
+   border: 1px solid #d1d1d1;
+   border-bottom: 3px solid #d1d1d1;
 }
 
 
-input[type="text"]:focus:not([readonly]){
-    border: 1px solid #6b6b6b;
-    border-bottom: 2px solid #6b6b6b;
+input[type="text"]:active:not([readonly]){
+    border: 1px solid #d1d1d1;
+    border-bottom: 3px solid #d1d1d1;
 }
 
 /* ==========================================================================
