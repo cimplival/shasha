@@ -36,6 +36,26 @@ h1, h2, h3, h4, h5, h6{
 /* ==========================================================================
    Start of default custom css Padding
    ========================================================================== */
+.pd-t-5{
+    padding-top: 10px;
+}
+.pd-t-10{
+    padding-top: 10px;
+}
+
+.pd-t-20{
+    padding-top: 20px;
+}
+
+.pd-t-30{
+    padding-top: 30px;
+}
+
+.pd-t-40{
+    padding-top: 40px;
+}
+
+
 .pd-l-5{
     padding-left: 10px;
 }
@@ -103,15 +123,47 @@ h1, h2, h3, h4, h5, h6{
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     #index-banner .section {
         top: 0;
     }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
     #index-banner {
-        height: 300px;
+        height: 620px;
+    }
+
+    .library-li-container {
+    	margin-top: 0px;
+    	height: 200px;
+    }
+
+    .library2-header{
+    	padding: 20px;
+    }
+
+    .library2-header2{
+    	margin-top: 20px;
+    }
+
+    .library2-header2-input{
+    	margin-top: 40px;
+    	margin-left: 0px;
+    	width: 50px;
+    }
+
+    .library2-header3{
+    	margin-top: 20px;
+    }
+
+    .library2-header3 select{
+    	margin-top: 25px;
+    	margin-left: 0px;
+    }
+
+    .collapsible .row .m3 {
+    	padding-top: 15px;
     }
 }
 
@@ -693,7 +745,7 @@ a {
 }
 
 .library2-header {
-    height: 52px;
+    height: 28px;
     color: inherit;
 }
 
@@ -707,8 +759,10 @@ a {
 
 .library2-header1 {
     margin-left: 20px;
-    padding-left: 5px;
+    padding-left: 40px;
     font-weight: bold;
+    padding-left: 8px; 
+    margin-top: 15px;
 }
 
 .library2-header2{
@@ -719,13 +773,14 @@ a {
 .library2-header2-input{
     border: 1px solid #6b6b6b;
     border-radius: 10px;
+    width: 60px;
 }
 
 
 .library2-header3{
-    margin-top: 0px;
-    padding-top: 8px;
-    font-weight:light;
+    margin-top: 8px;
+    padding-top: 12px;
+    padding-right: 12px;
 }
 
 .library2-header3 select{
@@ -773,6 +828,7 @@ a {
     padding-bottom: 2px;
     height: 25px;
     margin-top:8px;
+    width: 90%;
 }
 
 .library2-header2 input[type=text]:focus{
