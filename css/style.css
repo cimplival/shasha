@@ -95,6 +95,88 @@ h1, h2, h3, h4, h5, h6{
     padding-right: 40px;
 }
 
+/* ==========================================================================
+   Start of default custom css Margin
+   ========================================================================== */
+.mg-t-5{
+    padding-top: 10px;
+}
+.mg-t-10{
+    padding-top: 10px;
+}
+
+.mg-t-20{
+    padding-top: 20px;
+}
+
+.mg-t-30{
+    padding-top: 30px;
+}
+
+.mg-t-40{
+    padding-top: 40px;
+}
+
+
+.mg-l-5{
+    padding-left: 10px;
+}
+.mg-l-10{
+    padding-left: 10px;
+}
+
+.mg-l-20{
+    padding-left: 20px;
+}
+
+.mg-l-30{
+    padding-left: 30px;
+}
+
+.mg-l-40{
+    padding-left: 40px;
+}
+
+
+.mg-r-5{
+    padding-right: 10px;
+}
+.mg-r-10{
+    padding-right: 10px;
+}
+
+.mg-r-20{
+    padding-right: 20px;
+}
+
+.mg-r-30{
+    padding-right: 30px;
+}
+
+.mg-r-40{
+    padding-right: 40px;
+}
+
+
+.mg-b-5{
+    padding-bottom: 10px;
+}
+.mg-b-10{
+    padding-bottom: 10px;
+}
+
+.mg-b-20{
+    padding-bottom: 20px;
+}
+
+.mg-b-30{
+    padding-bottom: 30px;
+}
+
+.mg-b-40{
+    padding-bottom: 40px;
+}
+
 
 .parallax-container {
     min-height: 380px;
