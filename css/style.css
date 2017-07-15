@@ -959,6 +959,25 @@ input[type="text"]:active:not([readonly]){
     color: #a31623;
 }
 
+.course-menu {
+    background-color: #9b9b9b;
+    color: #ffffff;
+    padding: 3px 5px 3px 5px;
+    border-right: 2px solid #ffffff;
+    text-align: center;
+}
+
+.course-menu:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.course-menu-active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
 
 /* ==========================================================================
    Start of custom css for courses vertial navigation:Course
@@ -969,7 +988,8 @@ input[type="text"]:active:not([readonly]){
     left: 0;
     top: 0;
     bottom: 0;
-    width: 245px;
+    width: 310px;
+    height: 100%
     overflow: auto;
 }
 
@@ -983,16 +1003,18 @@ input[type="text"]:active:not([readonly]){
 .vertical-menu li {
     position: relative;
     z-index: 1;
-    padding-top: 8px;
+    padding-top: 0px;
+    width: 100%;
 }
 
 .vertical-menu a {
     display: block;
     border-bottom: 1px solid #fff;
-    padding: 5px 10px;
+    padding: 10px 10px;
     color: #000;
     text-decoration: none;
-    transition: all .3s ease;
+    transition: all 3s ease;
+    border-bottom: 3px solid #f1f1f1; 
 }
 
 .vertical-menu a:hover {
@@ -1025,8 +1047,7 @@ input[type="text"]:active:not([readonly]){
 }
 
 li.active > a {
-    border-left: 2px solid #6399b7;
-    color: #6399b7;
+    color: #993f44;
 }
 
 
@@ -1044,6 +1065,7 @@ li.active > a {
     color: #000000;
     color: var(--black);
 }
+
 
 .current-course-content {
     padding-top: 5px;
