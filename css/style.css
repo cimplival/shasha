@@ -1160,4 +1160,32 @@ li.active > a {
 .bullets{
     list-style-type: circle !important;
 }
- 
+
+/* ==========================================================================
+   Start of custom css for Pre quiz page
+   ========================================================================== */
+
+#result-mark {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50px; 
+    border-color:green; 
+    font-size: 30px; 
+    padding-top: 20px; 
+    padding-left: 20px; 
+    margin-top: 40px;
+}
+
+.result-area-font {
+    font-size: 18px;
+}
+
+.result-practice-areas {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.result-path {
+    font-size: 18px; 
+    margin-bottom: 20px;
+}
