@@ -13,12 +13,20 @@
    Start of default custom css:Homepage/General
    ========================================================================== */
 
+@font-face {
+    font-family: Proxima Nova;
+    src: url("../fonts/proximanova-webfont.ttf");
+}
+
 p {
     line-height: 2rem;
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-family: Roboto;
+body{
+    font-family: Proxima Nova;
+}
+.container{
+    width:97%;
 }
 
 .text-bold {
@@ -33,6 +41,13 @@ h1, h2, h3, h4, h5, h6{
     color: #26a69a;
 }
 
+.shasha-red{
+    color: #9f3040;
+}
+
+.shasha-orange{
+    color:#ff8048;
+}
 /* ==========================================================================
    Start of default custom css Padding
    ========================================================================== */
@@ -178,17 +193,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-.parallax-container {
-    min-height: 380px;
-    line-height: 0;
-    height: auto;
-    color: rgba(255, 255, 255, .9);
-}
-
-.parallax-container .section {
-    width: 100%;
-}
-
 @media only screen and (max-width: 992px) {
     .parallax-container .section {
         position: absolute;
@@ -316,6 +320,59 @@ nav ul a,
 nav .brand-logo {
     color: #444;
 }
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: 570px;
+    color: #fff;
+}
+.parallax-container{
+    background:rgba(0,0,0,0.2);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+.heading
+{
+    margin-bottom:25px;
+    padding:10px;
+    width:840px;
+    display:inline-block;
+    border:5px solid white;
+}
+
+.sub-heading{
+    font-family: "Times New Roman";
+    font-size:30px;
+    font-weight: 0;
+    margin:0;
+    letter-spacing: 1px;
+    line-height: 45px;
+    padding-bottom:50px;
+}
+
+.highlight{
+    font-size:40px;
+}
+
+.crumb{
+    width:100%;
+    background-color: rgba(238, 115, 63, 0.6);
+    height:90px;
+    text-align: center;
+    padding:20px;
+}
+
+.crumb .btn{
+    height:40px;
+    border: 2px solid #fff;
+    background:none;
+    color:#fff;
+    display:inline-block;
+    margin-right:20px;
+}
 
 .menu {
     height: 100px;
@@ -335,7 +392,7 @@ nav .brand-logo {
 }
 
 .btn:hover {
-    background-color: #ee733f
+    background-color: #ee733f;
 }
 
 .nav-li-a {
@@ -344,8 +401,12 @@ nav .brand-logo {
 }
 
 .nav-li-a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-bottom: 5px solid #9f3040;
+    color: rgba(238, 115, 63, 1);
+    transition: 1s;
+    background:none;
+}
+.nav-li-a i{
+    padding-right:10px;
 }
 
 a {
@@ -751,7 +812,6 @@ a {
     height: 90%;
     float: center;
     margin: 0 auto;
-    font-family: Roboto;
     font-size: 16px;
     color: #000000;
 }
