@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6{
     font-family: Roboto;
 }
 
+.text-bold {
+    font-weight: bold;
+}
+
 .card:hover{
   box-shadow: 0 14px 28px rgba(0,0,0,0.20), 0 10px 10px rgba(0,0,0,0.19);
 }
@@ -28,6 +32,151 @@ h1, h2, h3, h4, h5, h6{
 .button-collapse {
     color: #26a69a;
 }
+
+/* ==========================================================================
+   Start of default custom css Padding
+   ========================================================================== */
+.pd-t-5{
+    padding-top: 10px;
+}
+.pd-t-10{
+    padding-top: 10px;
+}
+
+.pd-t-20{
+    padding-top: 20px;
+}
+
+.pd-t-30{
+    padding-top: 30px;
+}
+
+.pd-t-40{
+    padding-top: 40px;
+}
+
+
+.pd-l-5{
+    padding-left: 10px;
+}
+.pd-l-10{
+    padding-left: 10px;
+}
+
+.pd-l-20{
+    padding-left: 20px;
+}
+
+.pd-l-30{
+    padding-left: 30px;
+}
+
+.pd-l-40{
+    padding-left: 40px;
+}
+
+
+.pd-r-5{
+    padding-right: 10px;
+}
+.pd-r-10{
+    padding-right: 10px;
+}
+
+.pd-r-20{
+    padding-right: 20px;
+}
+
+.pd-r-30{
+    padding-right: 30px;
+}
+
+.pd-r-40{
+    padding-right: 40px;
+}
+
+/* ==========================================================================
+   Start of default custom css Margin
+   ========================================================================== */
+.mg-t-5{
+    padding-top: 10px;
+}
+.mg-t-10{
+    padding-top: 10px;
+}
+
+.mg-t-20{
+    padding-top: 20px;
+}
+
+.mg-t-30{
+    padding-top: 30px;
+}
+
+.mg-t-40{
+    padding-top: 40px;
+}
+
+
+.mg-l-5{
+    padding-left: 10px;
+}
+.mg-l-10{
+    padding-left: 10px;
+}
+
+.mg-l-20{
+    padding-left: 20px;
+}
+
+.mg-l-30{
+    padding-left: 30px;
+}
+
+.mg-l-40{
+    padding-left: 40px;
+}
+
+
+.mg-r-5{
+    padding-right: 10px;
+}
+.mg-r-10{
+    padding-right: 10px;
+}
+
+.mg-r-20{
+    padding-right: 20px;
+}
+
+.mg-r-30{
+    padding-right: 30px;
+}
+
+.mg-r-40{
+    padding-right: 40px;
+}
+
+
+.mg-b-5{
+    padding-bottom: 10px;
+}
+.mg-b-10{
+    padding-bottom: 10px;
+}
+
+.mg-b-20{
+    padding-bottom: 20px;
+}
+
+.mg-b-30{
+    padding-bottom: 30px;
+}
+
+.mg-b-40{
+    padding-bottom: 40px;
+}
+
 
 .parallax-container {
     min-height: 380px;
@@ -56,15 +205,47 @@ h1, h2, h3, h4, h5, h6{
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     #index-banner .section {
         top: 0;
     }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
     #index-banner {
-        height: 300px;
+        height: 620px;
+    }
+
+    .library-li-container {
+    	margin-top: 0px;
+    	height: 200px;
+    }
+
+    .library2-header{
+    	padding: 20px;
+    }
+
+    .library2-header2{
+    	margin-top: 20px;
+    }
+
+    .library2-header2-input{
+    	margin-top: 40px;
+    	margin-left: 0px;
+    	width: 50px;
+    }
+
+    .library2-header3{
+    	margin-top: 20px;
+    }
+
+    .library2-header3 select{
+    	margin-top: 25px;
+    	margin-left: 0px;
+    }
+
+    .collapsible .row .m3 {
+    	padding-top: 15px;
     }
 }
 
@@ -100,6 +281,25 @@ footer.page-footer {
 .input-field input[type=password]:focus + label {
     color: #9f3040;
 }
+
+textarea.materialize-textarea {
+  border-bottom: 1px solid #9f3040;
+}
+
+textarea.materialize-textarea.valid,
+textarea.materialize-textarea:focus.valid {
+  border-bottom: 1px solid #9f3040;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #9f3040;
+  box-shadow: 0 1px 0 0 #9f3040;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #9f3040;
+}
+
 
 .btn-social {
     margin: 0px 6px 0px 35px;
@@ -175,6 +375,7 @@ a {
 .pricing-container {
     margin-top: 40px;
     margin-bottom: 40px;
+    padding-top: 0px;
 }
 
 .pricing-title-hd {
@@ -222,6 +423,10 @@ a {
 
 .card-content {
     height: 200px;
+}
+
+#learn {
+    display: none;
 }
 
 @media screen and (max-width: 480px) {
@@ -510,15 +715,12 @@ a {
     color: #a31623;
 }
 
-.library-courses-container {
-    border-top: 2px solid #dadada;
-}
 
 .library-course {
     margin: 10%;
     width: 90%;
     height: 90%;
-    padding-top: 20%;
+    padding-top: 5%;
     border-top: 0px;
     color: #9b9b9b;
 }
@@ -538,10 +740,6 @@ a {
 
 .library-li {
     height: 52px;
-}
-
-.library-li-container {
-    margin-top: 60px;
 }
 
 .library-li-active {
@@ -592,6 +790,138 @@ a {
     padding: 3px 15px 3px 15px;
 }
 
+.new-course {
+    padding-top: 60px;
+}
+
+.btn-floating{
+    background-color: #9b9b9b;
+}
+
+.btn-floating:hover {
+    background-color: #ee733f;
+}
+/* ==========================================================================
+   Start of custom css for Library 2:Library 2
+   ========================================================================== */
+.library2-top-banner{
+    height: 120px;
+}
+
+.library2-border {
+    border: 5px solid #f1f1f1; 
+}
+
+.library2-pd-chev{
+    padding-top:25px;
+    height: 120px;
+}
+
+.library2-header-subjects{
+    padding-top: 10px;
+}
+
+.library2-body-nopd {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.library2-header {
+    height: 28px;
+    color: inherit;
+}
+
+.library2-header-content {
+    min-width: 31%;
+    max-height: 20px;
+    color: inherit;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+.library2-header1 {
+    margin-left: 20px;
+    padding-left: 40px;
+    font-weight: bold;
+    padding-left: 8px; 
+    margin-top: 15px;
+}
+
+.library2-header2{
+    padding-top: 0px;
+    margin-left: 0px;
+}
+
+.library2-header2-input{
+    border: 1px solid #6b6b6b;
+    border-radius: 10px;
+    width: 60px;
+}
+
+
+.library2-header3{
+    padding-top: 8px;
+    padding-right: 30px;
+}
+
+.library2-header3 select{
+    height: 35px;
+}
+
+.collapsible {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border:0px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);  
+}
+
+.collapsible-header{
+    border-top:5px solid #f1f1f1;
+    border-bottom: 0px;
+}
+
+.collapsible-body{
+    border-bottom: 0px;
+}
+
+.library-more{
+    border-top:5px solid #f1f1f1;
+}
+
+.library-more-li{
+    font-size: 14px;
+}
+
+.a-inherit {
+    color: inherit;
+}
+
+.a-inherit:hover {
+    color: #6b6b6b;
+}
+
+
+.library2-header2 input[type=text]{
+    border: 0px solid #d1d1d1;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    height: 25px;
+    margin-top:8px;
+    width: 90%;
+}
+
+.library2-header2 input[type=text]:focus{
+   border: 1px solid #d1d1d1;
+   border-bottom: 3px solid #d1d1d1;
+}
+
+
+input[type="text"]:active:not([readonly]){
+    border: 1px solid #d1d1d1;
+    border-bottom: 3px solid #d1d1d1;
+}
 
 /* ==========================================================================
    Start of custom css for courses:Courses
@@ -629,6 +959,25 @@ a {
     color: #a31623;
 }
 
+.course-menu {
+    background-color: #9b9b9b;
+    color: #ffffff;
+    padding: 3px 5px 3px 5px;
+    border-right: 2px solid #ffffff;
+    text-align: center;
+}
+
+.course-menu:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.course-menu-active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
 
 /* ==========================================================================
    Start of custom css for courses vertial navigation:Course
@@ -639,7 +988,8 @@ a {
     left: 0;
     top: 0;
     bottom: 0;
-    width: 245px;
+    width: 310px;
+    height: 100%
     overflow: auto;
 }
 
@@ -653,16 +1003,18 @@ a {
 .vertical-menu li {
     position: relative;
     z-index: 1;
-    padding-top: 8px;
+    padding-top: 0px;
+    width: 100%;
 }
 
 .vertical-menu a {
     display: block;
     border-bottom: 1px solid #fff;
-    padding: 5px 10px;
+    padding: 10px 10px;
     color: #000;
     text-decoration: none;
-    transition: all .3s ease;
+    transition: all 3s ease;
+    border-bottom: 3px solid #f1f1f1; 
 }
 
 .vertical-menu a:hover {
@@ -695,8 +1047,7 @@ a {
 }
 
 li.active > a {
-    border-left: 2px solid #6399b7;
-    color: #6399b7;
+    color: #993f44;
 }
 
 
@@ -714,6 +1065,7 @@ li.active > a {
     color: #000000;
     color: var(--black);
 }
+
 
 .current-course-content {
     padding-top: 5px;
@@ -817,8 +1169,6 @@ li.active > a {
     color:black!important;
     font-weight: bold;
 }
-.tabs a.hover{
-}
 .tab-content{
     padding-top:20px !important;
     font-size:16px !important;
@@ -831,4 +1181,33 @@ li.active > a {
 }
 .bullets{
     list-style-type: circle !important;
+}
+
+/* ==========================================================================
+   Start of custom css for Pre quiz page
+   ========================================================================== */
+
+#result-mark {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50px; 
+    border-color:green; 
+    font-size: 30px; 
+    padding-top: 20px; 
+    padding-left: 20px; 
+    margin-top: 40px;
+}
+
+.result-area-font {
+    font-size: 18px;
+}
+
+.result-practice-areas {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.result-path {
+    font-size: 18px; 
+    margin-bottom: 20px;
 }
